@@ -27,7 +27,7 @@ class NavigationBar extends StatelessWidget {
                   space,
                   _NavItem("کسب و کار"),
                   space,
-                  _NavItem("صحفه اصلی"),
+                  _NavItem("صفحه اصلی"),
                 ],
               ),
             ],
