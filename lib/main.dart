@@ -1,7 +1,11 @@
-import 'package:flitter_website/view/home/home_view.dart';
+import 'package:flitter_website/locator.dart';
+import 'package:flitter_website/template/home_template.dart';
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  setUpLocator();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
@@ -13,7 +17,7 @@ class MyApp extends StatelessWidget {
               fontFamily: 'Vazir',
             ),
       ),
-      home: HomeView(),
+      home: HomeTemplate(),
     );
   }
 }
